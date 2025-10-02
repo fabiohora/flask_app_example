@@ -1,0 +1,26 @@
+{
+  "container_definitions": [
+    {
+      "environment": [],
+      "essential": true,
+      "image": "303981612052.dkr.ecr.ap-northeast-1.amazonaws.com/feh-flask-example:latest",
+      "mountPoints": [],
+      "name": "app",
+      "portMappings": [
+        {
+          "containerPort": 12345,
+          "hostPort": 12345,
+          "protocol": "tcp"
+        }
+      ],
+      "systemControls": [],
+      "volumesFrom": []
+    }
+  ],
+  "cpu": "256",
+  "execution_role_arn": "arn:aws:iam::303981612052:role/ecsTaskExecutionRole",
+  "family": "feh-flask-td",
+  "memory": "512",
+  "network_mode": "awsvpc",
+  "task_role_arn": ""
+}
