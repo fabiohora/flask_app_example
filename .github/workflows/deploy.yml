@@ -47,7 +47,7 @@ jobs:
 
       - name: Generate new task definition
         id: task-def
-        uses: aws-actions/amazon-ecs-render-task-definition@v2
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: app-task-def.json
           container-name: app
