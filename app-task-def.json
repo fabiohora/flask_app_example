@@ -1,5 +1,5 @@
 {
-  "container_definitions": [
+  "containerDefinitions": [
     {
       "environment": [],
       "essential": true,
@@ -18,9 +18,9 @@
     }
   ],
   "cpu": "256",
-  "execution_role_arn": "arn:aws:iam::303981612052:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::303981612052:role/ecsTaskExecutionRole",
   "family": "feh-flask-td",
   "memory": "512",
-  "network_mode": "awsvpc",
-  "task_role_arn": ""
+  "networkMode": "awsvpc",
+  "taskRoleArn": ""
 }
